@@ -26,11 +26,13 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/Configurar"/>
+
     <Button
         android:id="@+id/Button03"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="@string/Acercade"/>
+        android:layout_height="wrap_content"
+        android:onClick="lanzarAcercaDe"
+        android:text="@string/Acercade" />
     <Button
         android:id="@+id/Button04"
         android:layout_height="wrap_content"
