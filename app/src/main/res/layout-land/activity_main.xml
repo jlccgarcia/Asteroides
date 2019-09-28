@@ -43,10 +43,13 @@
                 android:layout_height="wrap_content"
                 android:onClick="lanzarAcercaDe"
                 android:text="@string/Acercade" />
-            <Button android:id="@+id/Button04"
-                android:layout_height="wrap_content"
+
+            <Button
+                android:id="@+id/Button04"
                 android:layout_width="match_parent"
-                android:text="@string/Salir"/>
+                android:layout_height="wrap_content"
+                android:onClick="lanzarPuntuaciones"
+                android:text="@string/Puntuaciones" />
         </TableRow>
     </TableLayout>
 </LinearLayout>

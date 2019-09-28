@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static AlmacenPuntuaciones almacen= new AlmacenPuntuacionesArray();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void lanzarPreferencias(View view){
         Intent i = new Intent(this, PreferenciasActivity.class);
+        startActivity(i);
+    }
+
+    public void lanzarPuntuaciones(View view) {
+        Intent i = new Intent(this, Puntuaciones.class);
         startActivity(i);
     }
 

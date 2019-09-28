@@ -18,5 +18,6 @@
         </activity>
         <activity android:name=".AcercaDeActivity" android:label="Acerca de..."></activity>
         <activity android:name=".PreferenciasActivity" android:label="Preferencias"></activity>
+        <activity android:name=".Puntuaciones" android:label="Puntuaciones"></activity>
     </application>
 </manifest>
