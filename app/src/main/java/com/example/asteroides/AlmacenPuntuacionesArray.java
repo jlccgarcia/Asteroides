@@ -1,7 +1,7 @@
 package com.example.asteroides;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 public class AlmacenPuntuacionesArray implements AlmacenPuntuaciones{
     private List<String> puntuaciones;
